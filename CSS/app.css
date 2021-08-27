@@ -1,0 +1,98 @@
+
+.titulo {
+text-align: center;
+font-size: 30px;     
+color: rgb(8, 2, 87);
+width: 100%;
+}
+
+#registro,
+#principal,
+#camara {
+    display: none;
+}
+
+.menu{
+
+width: 0%;
+height: 100%;
+position: fixed;
+top: 0;
+left: 0;
+background-color: black;
+overflow-x: hidden;
+padding-top: 60px;
+transition: 0.5s;
+z-index: 1;
+
+}
+
+.botonCerrar{
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+  color: rgb(173, 173, 255);
+  text-decoration: none;
+
+} 
+.opciones{
+    text-decoration: none;
+color: rgb(173, 173, 255);
+padding-left: 20px;
+}
+
+.btn {
+    background: #3498db;
+    background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+    background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+    background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+    background-image: -o-linear-gradient(top, #3498db, #2980b9);
+    background-image: linear-gradient(to bottom, #3498db, #2980b9);
+    -webkit-border-radius: 28;
+    -moz-border-radius: 24;
+    border-radius: 24px;
+    text-shadow: 2px 2px 6px #666666;
+    -webkit-box-shadow: 2px 4px 6px #666666;
+    -moz-box-shadow: 2px 4px 6px #666666;
+    box-shadow: 2px 4px 6px #666666;
+    font-family: Arial;
+    color: #5fd61a;
+    font-size: 18px;
+    padding: 6px 18px 7px 15px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #3cb0fd;
+    background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+    text-decoration: none;
+  }
+  .errorCampo{
+
+border-color: red;
+border-width: 4px;
+
+  }
+
+  .opciones:visited{
+
+    color: rgb(173 ,173, 255);
+  }
+  .inputget {
+
+    display: none;
+  }
+  .container-photo {
+    background-color: 3px;
+    text-align: center;
+  }
+  .photo{
+    height: 200px;
+    object-fit: cover;
+  }
